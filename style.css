@@ -1,0 +1,27 @@
+body {
+
+    background: url(dlySaita.png) no-repeat center center fixed;
+    background-size: cover;
+    }
+    .site {
+     color: white;
+	font-size: 45px;
+	background: #4900005d;
+	 border:3px #4900005d  ridge;
+
+
+	  z-index: 1;
+
+	
+	  font-family: 'source';
+    }
+    .opacity {
+        background-color: rgba(245, 245, 220, 0);
+      border: 0px;
+    }
+    @media screen and (width<700px)  {
+        .site {
+            font-size: 27px;
+        }
+    
+    }
